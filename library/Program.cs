@@ -8,6 +8,10 @@ class Program
         // Note how the object name differs from the class name
         Book book = new Book("C# for beginners", "Bill Gates", "1234567");
 
+        // create another instance
+        Book book2 = new Book("ultimate C#", "Microsoft", "2233445");
+
         book.DisplayInfo();
+        book2.DisplayInfo();
     }
 }
